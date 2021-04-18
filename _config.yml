@@ -1,1 +1,4 @@
 show_dir_listing: true
+webrick:
+  headers:
+    My-Header: My-Value
