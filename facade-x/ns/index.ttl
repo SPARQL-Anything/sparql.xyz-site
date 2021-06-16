@@ -2,13 +2,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix owl:  <http://www.w3.org/2002/07/owl#>.
 @prefix fx:  <http://sparql.xyz/facade-x/ns/>.
+@prefix xyz:  <http://sparql.xyz/facade-x/data/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 rdf:Property a rdfs:Class .
 
 rdf:type rdf:type rdf:Property .
 
-rdfs:ContainerMembershipProperty rdfs:subPropertyOf rdf:Property .
+rdfs:ContainerMembershipProperty rdfs:subClassOf rdf:Property .
 
 fx:Root a rdfs:Class .
 
