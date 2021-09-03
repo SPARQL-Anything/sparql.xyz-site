@@ -1,4 +1,6 @@
 show_dir_listing: true
+kramdown:
+  input: GFM
 plugins:
   - jekyll-redirect-from
 whitelist:
