@@ -11,7 +11,7 @@ rdf:type rdf:type rdf:Property .
 
 rdfs:ContainerMembershipProperty rdfs:subClassOf rdf:Property .
 
-fx:Root a rdfs:Class .
+fx:root a rdfs:Class .
 
 xsd:int a rdfs:Datatype.
 xsd:string a rdfs:Datatype.
