@@ -1,0 +1,22 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl:  <http://www.w3.org/2002/07/owl#>.
+@prefix fx:  <http://sparql.xyz/facade-x/ns/>.
+@prefix xyz:  <http://sparql.xyz/facade-x/data/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+rdf:Property a rdfs:Class .
+
+rdf:type rdf:type rdf:Property .
+
+rdfs:ContainerMembershipProperty rdfs:subClassOf rdf:Property .
+
+fx:Root a rdfs:Class .
+
+xsd:int a rdfs:Datatype.
+xsd:string a rdfs:Datatype.
+xsd:boolean a rdfs:Datatype.
+xsd:decimal a rdfs:Datatype.
+xsd:float a rdfs:Datatype.
+xsd:double a rdfs:Datatype.
+xsd:base64Binary a rdfs:Datatype.
